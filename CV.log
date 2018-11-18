@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.5)  7 OCT 2018 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.5)  18 NOV 2018 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -148,67 +148,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 
-./CV.tex:63: Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   ,
-l.63         \textit{C#, SQL}
-                             
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./CV.tex:63: You can't use `macro parameter character #' in horizontal mode.
-<argument> C##
-              , SQL
-l.63         \textit{C#, SQL}
-                             
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./CV.tex:66: Misplaced \noalign.
+./CV.tex:76: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.66 \hline
+l.76 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-./CV.tex:73: You can't use `macro parameter character #' in horizontal mode.
-<inserted text> ...ent} \\ Kotlin, Haskell, C, C##
-                                                  , SQL, XML & \textit {Good...
-l.73 \end{tabularx}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./CV.tex:73: You can't use `macro parameter character #' in horizontal mode.
-<inserted text> ...ent} \\ Kotlin, Haskell, C, C##
-                                                  , SQL, XML & \textit {Good...
-l.73 \end{tabularx}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./CV.tex:73: You can't use `macro parameter character #' in horizontal mode.
-<inserted text> ...ent} \\ Kotlin, Haskell, C, C##
-                                                  , SQL, XML & \textit {Good...
-l.73 \end{tabularx}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./CV.tex:75: Misplaced \noalign.
+./CV.tex:86: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.75 \hline
+l.86 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -219,13 +170,13 @@ an alignment. Proceed, and I'll ignore this case.
 Here is how much of TeX's memory you used:
  897 strings out of 492642
  11977 string characters out of 6135567
- 84077 words of memory out of 5000000
+ 85077 words of memory out of 5000000
  4828 multiletter control sequences out of 15000+600000
  8244 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,15n,19p,179b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on CV.pdf (1 page, 77556 bytes).
+Output written on CV.pdf (1 page, 80968 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
