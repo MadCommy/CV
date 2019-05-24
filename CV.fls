@@ -1,4 +1,4 @@
-PWD /mnt/OS/Main/Apps/CV
+PWD /mnt/Main/MEGA/Apps/CV
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT CV.tex

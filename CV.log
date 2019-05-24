@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.10)  14 FEB 2019 01:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.25)  24 MAY 2019 08:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **CV.tex
 (./CV.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2018-12-01>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -23,20 +23,20 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 ) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
  (/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen103
-\ar@mcellbox=\box26
+\ar@mcellbox=\box27
 \extrarowheight=\dimen104
 \NC@list=\toks16
 \extratabsurround=\skip43
 \backup@length=\skip44
-\ar@cellbox=\box27
+\ar@cellbox=\box28
 )
 \TX@col@width=\dimen105
 \TX@old@table=\dimen106
@@ -133,33 +133,34 @@ l.17 \hline
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-./CV.tex:35: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.35 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+./CV.tex:36: Undefined control sequence.
+l.36 \botomrule
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
-./CV.tex:78: Misplaced \noalign.
+./CV.tex:81: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.78 \hline
+l.81 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-./CV.tex:86: Misplaced \noalign.
+./CV.tex:89: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.86 \hline
+l.89 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -168,15 +169,15 @@ an alignment. Proceed, and I'll ignore this case.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./CV.aux) ) 
 Here is how much of TeX's memory you used:
- 897 strings out of 492639
- 11977 string characters out of 6135497
- 84212 words of memory out of 5000000
- 4830 multiletter control sequences out of 15000+600000
+ 897 strings out of 492616
+ 11977 string characters out of 6135177
+ 85706 words of memory out of 5000000
+ 4853 multiletter control sequences out of 15000+600000
  8244 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,15n,19p,179b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on CV.pdf (1 page, 81104 bytes).
+Output written on CV.pdf (1 page, 81134 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
