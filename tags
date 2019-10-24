@@ -5,11 +5,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/8f20f8c1/
-Education	/home/anthony/Main/Documents/Apps/CV/CV.tex	/^\\section*{Education}$/;"	s
-Education	/mnt/Main/MEGA/Apps/CV/CV.tex	/^\\section*{Education}$/;"	s
-Extracurriculars	/home/anthony/Main/Documents/Apps/CV/CV.tex	/^\\section*{Extracurriculars}$/;"	s
-Extracurriculars	/mnt/Main/MEGA/Apps/CV/CV.tex	/^\\section*{Extracurriculars}$/;"	s
-Projects \\& experience	/home/anthony/Main/Documents/Apps/CV/CV.tex	/^\\section*{Projects \\& experience}$/;"	s
-Projects \\& experience	/mnt/Main/MEGA/Apps/CV/CV.tex	/^\\section*{Projects \\& experience}$/;"	s
-Technical skills	/home/anthony/Main/Documents/Apps/CV/CV.tex	/^\\section*{Technical skills}$/;"	s
-Technical skills	/mnt/Main/MEGA/Apps/CV/CV.tex	/^\\section*{Technical skills}$/;"	s
+Education	CV.tex	/^\\section*{Education}$/;"	s
+Extracurriculars	CV.tex	/^\\section*{Extracurriculars}$/;"	s
+Projects \\& experience	CV.tex	/^\\section*{Projects \\& experience}$/;"	s
+Technical skills	CV.tex	/^\\section*{Technical skills}$/;"	s
