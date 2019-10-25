@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.17)  24 OCT 2019 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.17)  24 OCT 2019 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -391,20 +391,24 @@ l.28 \toprule
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-./CV.tex:47: Misplaced \noalign.
+./CV.tex:46: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.47 \midrule
+l.46 \midrule
              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+
+Overfull \hbox (3.54836pt too wide) in paragraph at lines 54--57
+[]\OT1/cmr/m/n/10.95 Implemented, tested, and de-ployed com-po-nent of high-throughput, high-availability data-retrieval
+ []
 
 ./CV.tex:71: Misplaced \noalign.
 \midrule ->\noalign 
@@ -442,7 +446,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  37i,15n,27p,810b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on CV.pdf (1 page, 89277 bytes).
+Output written on CV.pdf (1 page, 89288 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
