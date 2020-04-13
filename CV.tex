@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage{parskip}
@@ -18,25 +18,34 @@
 \begin{document}
 \noindent
 
-\begin{tabularx}{\textwidth}{X r}
-    \huge{\textbf{Anthony Catterwell}}
-    & Email: anthony.catterwell@gmail.com \\
-    & Mobile: +44 7572019279 \\
-    & Github: https://www.github.com/catterwell \\
-\end{tabularx}
+\begin{center}{}
+    \begin{tabular}{c}
+        \Huge{\textsc{Anthony Catterwell}} \\
+        \small{anthony.catterwell@gmail.com} \\
+    \end{tabular}
+\end{center}
 
-\toprule
+% \begin{tabularx}{\textwidth}{X r}
+%     \Huge{\textsc{Anthony Catterwell}}
+%     & \small{Email: anthony.catterwell@gmail.com} \\
+%     & \small{Mobile: +44 7572019279} \\
+%     & \small{Github: https://www.github.com/catterwell} \\
+% \end{tabularx}
 
-\section*{Education}
+\midrule
+
+\textsc{Education}
+
 \begin{tabularx}{\textwidth}{X r}
-    \textbf{University of Edinburgh} & Edinburgh, UK \\
-    \textit{BSc. (Hons), Computer Science and Mathematics, 1:1 (expected)} & 2016 --- 2020 (expected) \\
+    \textbf{The University of Edinburgh} & \small{Edinburgh, UK} \\
+        BSc. (Hons), Computer Science and Mathematics, 1:1 (expected) & \small{2016 ---
+        2020 (expected)} \\
     \begin{tabular}{l l l l}
         Year 1         & Year 2         & Year 3         & Year 4 \\
         $84\%$ average & $82\%$ average & $79\%$ average & ongoing \\
     \end{tabular} & \\
-    \textbf{Bangkok Patana School} & Bangkok, Thailand \\
-\textit{IB Diploma} (38/45) & 2014 --- 2016\\
+    \textbf{Bangkok Patana School} & \small{Bangkok, Thailand} \\
+    IB Diploma (38/45)             & \small{2014 --- 2016} \\
     % \begin{tabular}{l}
     %     Higher level: Mathematics, Physics, Chemistry \\
     %     Standard level: Economics, English, Thai \\
@@ -45,33 +54,41 @@
 
 \midrule
 
-\section*{Professional experience}
+\textsc{Employment}
+
 \begin{tabularx}{\textwidth}{X r}
-    \textbf{Amazon} & Luxembourg City, Luxembourg \\
-    \emph{Software Development Intern} & June --- September 2019 \\
+    % \textbf{Amazon.com, Inc.}                       & \\
+    % Software Development Engineer                   & \small{Edinburgh, UK} \\
+    %                                                 & \small{Sep 2020 --- Present} \\
+    %                                                 & \\
+    % Software Development Intern                     & \small{Luxembourg City, Luxembourg} \\
+    %                                                 & \small{Jun 2019 --- Sep 2019} \\
+    \textbf{Amazon.com, Inc.}                       & \small{Luxembourg City, Luxembourg} \\
+    Software Development Intern                     & \small{June --- September 2019} \\
 \end{tabularx}
 \begin{itemize}
     \item Implemented, tested, and deployed component of high-throughput,
-        high-availability data-retrieval service to enable the fetching of
-        data from additional sources in AWS.\@
-    \item Designed, implemented, tested, and deployed front-end web UI and associated back-end REST service to
-        enable self-service bulk data submission by internal customers.
-    \item Created metrics and dashboards for measuring and monitoring performance and data quality.
-    \item Invited to return for full-time role.
+        high-availability data-retrieval service to enable the fetching of data from
+        additional sources in AWS.\@
+    \item Designed, implemented, tested, and deployed front-end web UI and associated
+        back-end REST service to enable self-service bulk data submission by internal
+        customers.
+    \item Created metrics and dashboards for measuring and monitoring performance and data
+        quality.
+    % \item Invited to return for full-time role.
 \end{itemize}
-
 % \begin{tabularx}{\textwidth}{X r}
 %     \textbf{Centara Grand Hotels} & Bangkok, Thailand \\
 %     \emph{Programmer Intern} & June 2014 \\
 % \end{tabularx}
 % \begin{itemize}
-%     \item Contributed to the back-end of their staff website involving user-account management.
-%         \textit{C\#, SQL}
+%     \item Contributed to the back-end of their staff website involving user-account
+%         management. \textit{C\#, SQL}
 % \end{itemize}
 
 \midrule
 
-\section*{Personal projects}
+\textsc{Personal projects}
 % \textbf{Compiler}:
 %     Wrote compiler for a subset of C to MIPS-Assembly.
 %     \textit{Java, MIPS}
@@ -98,26 +115,25 @@
 %     \textit{Python, Micro-bit API}
 \begin{itemize}
     \item \textbf{Compiler}:
-        Built a compiler for a subset of C to MIPS-Assembly.
-        \textit{Java, MIPS}
+        Built a compiler for a subset of C to MIPS-Assembly. \textit{Java, MIPS}
     % \item \textbf{LLVM Compiler Pass}:
     %     Wrote dead-code elimination pass in LLVM.\
     %     \textit{C++, LLVM}
     \item \textbf{Coinz App}:
-        Designed and implemented location-based coin collection-game.
-        \textit{Java, Android, Firebase, Mapbox, Material-UI}
+        Designed and implemented location-based coin collection-game. \textit{Java,
+        Android, Firebase, Mapbox, Material-UI}
     \item \textbf{Tank AI}:
-        Designed and implemented an AI for a tank in a multiplayer game. GreatUniHack 2018.
-        \textit{Python}
+        Designed and implemented an AI for a tank in a multiplayer game. GreatUniHack
+        2018. \textit{Python}
     \item \textbf{Battleships}:
-        Implemented battleships game with single- and multi-player modes.
-        \textit{Python, TCP}
+        Implemented battleships game with single- and multi-player modes. \textit{Python,
+        TCP}
     % \item \textbf{Street Maintenance App}:
     %     Implemented back-end of server-less pothole-reporting app. HackUPC 2018.
         % \textit{Java, Android, AWS Lambda, AWS DynamoDB}
     \item \textbf{Login monitor}:
-        Designed and implemented service to remotely log logins to networked university computers.
-        \textit{Python}
+        Designed and implemented service to remotely log logins to networked university
+        computers. \textit{Python}
     % \item \textbf{Staff search-engine}:
     %     Created to search university staff and students given their roles.
     %     \textit{Python}
@@ -125,9 +141,8 @@
     %     Co-created program to identify bot-accounts on Twitter. Hack the Burgh 2018.
     %     \textit{Python, Twitter API}
     \item \textbf{Micro-bit controllers}:
-        Programmed motion-sensitive micro-bit game-controllers. Hack the Burgh 2017.
-        Won ARM prize.
-        \textit{Python, Micro-bit API}
+        Programmed motion-sensitive micro-bit game-controllers. Hack the Burgh 2017.  Won
+        ARM prize. \textit{Python, Micro-bit API}
     % \item \textbf{Spellchecker}:
     %     Wrote constant-time spellchecker.
     %     \textit{C} (June 2015)
@@ -136,23 +151,27 @@
 % Java, Typescript, SQL, Guice, Guava, Jukito, Mockito, Angular, REST, Lombok, S3.
 
 \midrule
-\section*{Technical skills}
+\textsc{Technologies}
+
 \begin{tabularx}{\textwidth}{X r}
-    Java, Python, Linux, Git, SQL, Guice, Mockito, AWS (S3)
+    Java, Python, Linux, Git, SQL, Guice, Mockito, AWS (S3), Vim, \LaTeX{}
     % Guava, Jukito, Lombok,
     & \textit{***} \\\\
 
-    Hadoop (MapReduce), TypeScript, AngularJS, Pandas, SKLearn, REST, Firebase, Mapbox, Android, Maple, AWS (DynamoDB, Lambda)
+    PyTorch, C++, Hadoop (MapReduce), TypeScript, AngularJS, Pandas, Scikit-Learn, REST,
+    Firebase, Mapbox, Android, Maple, AWS (DynamoDB, Lambda)
     & \textit{**} \\\\
 
-    Hibernate, Spring, C, C++, Haskell, MIPS-Assembly, LLVM, MATLAB, R, AWS (Data-Pipeline, Redshift, RDS)
+    Hibernate, Spring, Haskell, MIPS-Assembly, LLVM, MATLAB, R, AWS (Data-Pipeline,
+    Redshift, RDS)
     & \textit{*} \\\\
 \end{tabularx}
 \begin{tiny}{}
 \begin{tabular}{l l}
-    *** & Extensive use through multiple major projects. \\
-    ** & Substantial use through at least one major project. \\
-    * & Good familiarity through use in at least one smaller project or minor use in a major project.
+    *** & Extensive use in multiple major projects. \\
+    ** & Substantial use in at least one major project. \\
+    * & Good familiarity through use in at least one smaller project or minor use in a
+    major project.
 \end{tabular}
 \end{tiny}
 
